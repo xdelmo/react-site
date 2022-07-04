@@ -2,6 +2,7 @@
 
 This is a solution to the [React Site project on Scrimba](https://scrimba.com/learn/learnjavascript/). Scrimba helps you improve your coding skills by building realistic projects.
 
+<<<<<<< HEAD
 ## Table of contents
 
 - [Overview](#overview)
@@ -57,3 +58,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## Author
 
 - Website - [Emanuele Del Monte](https://www.emanueledelmonte.it)
+=======
+### Screenshot
+
+![screenshot](/src/screenshots/screenshot.png)
+>>>>>>> 7dd8064a54741a6a20346eca0d8fb04a61961c62
