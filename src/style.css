@@ -1,0 +1,128 @@
+/* ---------------------- */
+/* Fonts                  */
+/* ---------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+/* ---------------------- */
+/* Custom properties      */
+/* ---------------------- */
+
+:root {
+  --clr-main-bright: #61dafb;
+  --clr-main-very-bright: #deebf8;
+
+  --clr-background-darker: #21222a;
+  --clr-background-dark: #282d35;
+
+  --ff-main: "Inter", sans-serif;
+}
+
+/* ---------------------- */
+/* Reset                  */
+/* ---------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------------------- */
+/* Typography             */
+/* ---------------------- */
+
+html {
+  font-family: var(--ff-main);
+}
+
+/* ---------------------- */
+/* Components             */
+/* ---------------------- */
+
+/* NAVBAR */
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 5em;
+  padding: 2em 1.75em;
+  background-color: var(--clr-background-darker);
+}
+
+.nav--logo {
+  max-height: 2em;
+  margin-right: 0.5em;
+}
+
+.nav--logo_text {
+  font-size: 1.5rem;
+  margin-right: auto;
+  color: var(--clr-main-bright);
+  letter-spacing: -0.05em;
+}
+
+.nav--title {
+  color: var(--clr-main-very-bright);
+  font-weight: 600;
+  /* font-size: 0.8rem; */
+}
+
+/* MAIN */
+
+main {
+  background-color: var(--clr-background-dark);
+  min-height: calc(100vh - 10em);
+  padding: 2em 1.75em;
+  color: var(--clr-main-very-bright);
+  background-image: url(/src/images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 3em;
+}
+
+.main--facts > li {
+  line-height: 1.25em;
+  padding-block: 0.75em;
+}
+
+.main--facts > li::marker {
+  color: var(--clr-main-bright);
+  font-size: 1.25rem;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 2em 0;
+  margin-bottom: 0;
+  height: 5em;
+  background-color: var(--clr-background-darker);
+  color: var(--clr-main-very-bright);
+  text-align: center;
+}
