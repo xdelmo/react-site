@@ -27,6 +27,7 @@ Create a first site using React.JS framework.
 ### Links
 
 - Solution URL: [@GitHub](https://github.com/xdelmo/react-site)
+- Live Site URL: [@Netlify](https://react-site-xdelmo.netlify.app/)
 
 ### Getting Started with Create React App
 
