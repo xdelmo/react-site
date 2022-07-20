@@ -18,7 +18,7 @@ This is a solution to the [React Site project on Scrimba](https://scrimba.com/le
 
 ### The challenge
 
-Create a first site using React.JS framework.
+Create a first site using React.JS framework with Darkmode toggle.
 
 ### Screenshot
 
@@ -33,21 +33,13 @@ Create a first site using React.JS framework.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-If you want to see the final product, in the project directory, you can run:
-
-## `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Flexbox
 - React.JS
 
 ### Useful resources
