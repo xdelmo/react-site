@@ -158,20 +158,23 @@ nav.dark .toggler--slider {
 /* MAIN */
 
 main {
-  background-color: var(--clr-background-lighter);
-  min-height: calc(100vh - 10em);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1 1 auto;
   padding: 2em 1.75em;
+  min-height: calc(100vh - 10em);
   color: var(--clr-background-darker);
+  background-color: var(--clr-background-lighter);
   background-image: url(/src/images/react-icon-light.png);
   background-repeat: no-repeat;
   background-position: right;
-  flex: 1 1 auto;
 }
 
 main.dark {
+  color: var(--clr-background-lighter);
   background-image: url("./images/react-icon-dark.png");
   background-color: var(--clr-background-dark);
-  color: var(--clr-background-lighter);
 }
 
 .main--title {
@@ -199,7 +202,6 @@ main.dark {
 footer {
   padding: 2em 0;
   margin-bottom: 0;
-  height: 5em;
   background-color: var(--clr-background-light);
   color: var(--clr-background-darker);
   text-align: center;
@@ -208,11 +210,11 @@ footer {
 footer.dark {
   padding: 2em 0;
   margin-bottom: 0;
-  height: 5em;
   background-color: var(--clr-background-darker);
   color: var(--clr-background-lighter);
   text-align: center;
 }
+
 small a {
   color: var(--clr-accent-bright);
 }
